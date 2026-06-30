@@ -16,9 +16,8 @@ $sidebar-bg: #fff;
     left: $sidebar-width;
     width: calc(100% - $sidebar-width);
     border-bottom: $border;
+    box-shadow: 0px 4px 12px $shadow-color;
 }
-
-.footer {}
 
 .sidebar {
     background-color: $sidebar-bg;
@@ -28,9 +27,18 @@ $sidebar-bg: #fff;
     top: 0;
     height: 100vh;
     border-right: $border;
+    box-shadow: 0px 4px 12px $shadow-color;
 }
 
-.content {}
+.content {
+    overflow: auto;
+    height: calc(100vh - $header-height);
+    width: calc(100% - $sidebar-width);
+    position: fixed;
+    top: $header-height;
+    left: $sidebar-width;
+    padding: $spacing-l;
+}
 
 .grid {
     display: grid;

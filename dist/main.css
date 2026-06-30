@@ -7,6 +7,7 @@
   left: 250px;
   width: calc(100% - 250px);
   border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0px 4px 12px rgba(2, 6, 24, 0.05);
 }
 
 .sidebar {
@@ -17,6 +18,17 @@
   top: 0;
   height: 100vh;
   border-right: 1px solid #e2e8f0;
+  box-shadow: 0px 4px 12px rgba(2, 6, 24, 0.05);
+}
+
+.content {
+  overflow: auto;
+  height: calc(100vh - 64px);
+  width: calc(100% - 250px);
+  position: fixed;
+  top: 64px;
+  left: 250px;
+  padding: 24px;
 }
 
 .grid {
@@ -27,6 +39,23 @@
   display: flex;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -34,10 +63,17 @@
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   font-family: "Inter", system-ui;
   background-color: #f8fafc;
   color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../src/main.scss%22,%22../src/_layout.scss%22,%22../src/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAGQ;ACOR;EACI,kBAPQ;EAQR,QATY;EAUZ;EACA;EACA,MARY;EASZ;EACA,eCRK;;;ADaT;EACI,kBAfS;EAgBT,OAjBY;EAkBZ;EACA;EACA;EACA;EACA,cCpBK;;;ADyBT;EACI;;;AAGJ;EACI;;;ADlCJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA,kBEPM;EFQN%22,%22file%22:%22main.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../src/main.scss%22,%22../src/_layout.scss%22,%22../src/_variables.scss%22,%22../src/_typography.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAIQ;ACMR;EACI,kBAPQ;EAQR,QATY;EAUZ;EACA;EACA,MARY;EASZ;EACA,eCPK;EDQL;;;AAGJ;EACI,kBAdS;EAeT,OAhBY;EAiBZ;EACA;EACA;EACA;EACA,cClBK;EDmBL;;;AAGJ;EACI;EACA;EACA;EACA;EACA,KAlCY;EAmCZ,MA/BY;EAgCZ,SCrBQ;;;ADwBZ;EACI;;;AAGJ;EACI;;;AE/CJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AHRJ;EACI;EACA;EACA;EACA;;;AAGJ;AAAA;EAEI;;;AAGJ;EACI;EACA,kBEbM;EFcN;EACA;EACA%22,%22file%22:%22main.css%22%7D */

@@ -1,5 +1,6 @@
 @use "variables" as *;
 @use "layout";
+@use "typography";
 
 @import url("https://fonts.googleapis.com/css?family=Inter");
 
@@ -10,8 +11,15 @@
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    overflow: hidden;
+}
+
 body {
     font-family: "Inter", system-ui;
     background-color: $surface;
     color: black;
+    height: 100vh;
+    width: 100vw;
 }

@@ -6,9 +6,18 @@ $error: #e7000b;
 $info: #0092b8;
 $warning: #fe9a00;
 $surface: #f8fafc;
+$text: #020618;
 
 $border: 1px solid #e2e8f0;
 $border-highlight: 1px solid $primary;
 $border-error: 1px solid $error;
 
 // spacing
+$spacing-xs: 4px;
+$spacing-s: 10px;
+$spacing: 16px;
+$spacing-l: 24px;
+$spacing-xl: 32px;
+
+// misc
+$shadow-color: rgba($text, 0.05);
