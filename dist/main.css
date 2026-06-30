@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+.header {
+  background-color: #fff;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  left: 250px;
+  width: calc(100% - 250px);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.sidebar {
+  background-color: #fff;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  border-right: 1px solid #e2e8f0;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui;
+  background-color: #f8fafc;
+  color: black;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../src/main.scss%22,%22../src/_layout.scss%22,%22../src/_variables.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAGQ;ACOR;EACI,kBAPQ;EAQR,QATY;EAUZ;EACA;EACA,MARY;EASZ;EACA,eCRK;;;ADaT;EACI,kBAfS;EAgBT,OAjBY;EAkBZ;EACA;EACA;EACA;EACA,cCpBK;;;ADyBT;EACI;;;AAGJ;EACI;;;ADlCJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA,kBEPM;EFQN%22,%22file%22:%22main.css%22%7D */

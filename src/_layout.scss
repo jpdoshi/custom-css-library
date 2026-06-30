@@ -1,0 +1,41 @@
+@use "variables" as *;
+
+// header variables
+$header-height: 64px;
+$header-bg: #fff;
+
+// sidebar variables
+$sidebar-width: 250px;
+$sidebar-bg: #fff;
+
+.header {
+    background-color: $header-bg;
+    height: $header-height;
+    position: sticky;
+    top: 0;
+    left: $sidebar-width;
+    width: calc(100% - $sidebar-width);
+    border-bottom: $border;
+}
+
+.footer {}
+
+.sidebar {
+    background-color: $sidebar-bg;
+    width: $sidebar-width;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    border-right: $border;
+}
+
+.content {}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}

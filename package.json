@@ -1,0 +1,29 @@
+{
+  "name": "custom-css-library",
+  "version": "1.0.0",
+  "description": "CSS component library for custom software development",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "sass src/main.scss dist/main.css --embed-source-map --watch",
+    "build": "sass src/main.scss dist/main.css --style=compressed --no-source-map",
+    "format": "prettier --write src/**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdoshi/custom-css-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jpdoshi/custom-css-library/issues"
+  },
+  "homepage": "https://github.com/jpdoshi/custom-css-library#readme",
+  "dependencies": {
+    "prettier": "^3.9.4",
+    "sass": "^1.101.0"
+  }
+}

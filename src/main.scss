@@ -1,0 +1,17 @@
+@use "variables" as *;
+@use "layout";
+
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", system-ui;
+    background-color: $surface;
+    color: black;
+}

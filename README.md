@@ -1,2 +1,2 @@
-# custom-css-library
+# Custom CSS Library
 CSS component library for custom software development
